@@ -1,0 +1,109 @@
+/* General Header Styling */
+.main-header {
+  display: flex;
+  flex-direction: column;
+  background-color:  #2d545e;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ddd;
+  color: #e1b382;
+}
+
+/* Top info bar */
+.information {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 10px;
+  h3{
+    color:#e1b382;
+  }
+}
+
+.information > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 5px 0;
+}
+
+.flags {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+/* Main nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.main-header__logo img {
+  height: 80px;
+  width: 90px;
+}
+.hamburger {
+  display:none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Navigation items */
+.main-nav__items {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+}
+
+.main-nav__item a,
+.dropbtn {
+  text-decoration: none;
+  color: #e1b382;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1px solid #e1b382;
+  padding: 3px;
+  background-color: #2d545e;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  top: 100%;
+  z-index: 1;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  flex-direction: column;
+}
+
+.dropdown-content a {
+  padding: 10px;
+  text-align: left;
+  color: #e1b382;
+  display: block;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+/* Hamburger styles */
+

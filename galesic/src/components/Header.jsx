@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot, faPhoneVolume, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot, faPhoneVolume, faEnvelope,faBars,faTimes } from "@fortawesome/free-solid-svg-icons";
 import Flag from "react-flagkit";
 import logo from "../assets/Images/logo/muhasLogo4.jpg";
 import { Link } from "react-router-dom";
@@ -47,7 +47,7 @@ const Header = () => {
         </div>
 
         <button className="hamburger" onClick={() => setMenuOpen(prev => !prev)}>
-          {menuOpen ? "✖" : "≡"}
+          <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} size="2x" />
         </button>
 
         <ul className={`main-nav__items 

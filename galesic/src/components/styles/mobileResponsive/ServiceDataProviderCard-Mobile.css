@@ -1,0 +1,14 @@
+@media (max-width: 480px) {
+  .card-container {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+  }
+}

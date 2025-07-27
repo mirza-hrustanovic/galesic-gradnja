@@ -6,9 +6,8 @@
 }
 .about {
   color: #1b6c5c;
-  padding: 20px;
+  padding: 100px;
   display: flex;
-
   text-wrap: normal;
   justify-content: center;
   align-items: center;
@@ -19,9 +18,12 @@
 .about h1 {
   text-align: center;
   font-size: 24px;
+  color: #e1b382;
 }
+
 .about p {
   font-size: 20px;
+  color: #e1b382;
  
  
 

@@ -1,6 +1,7 @@
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 import "./styles/ServiceDataProviderCard.css";
+import "./styles/mobileResponsive/ServiceDataProviderCard-Mobile.css";
 
 const ServiceDataProvider = ({servicesData}) =>{
     return (

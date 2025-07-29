@@ -60,7 +60,7 @@ const Header = () => {
           </li>
           <li className="main-nav__item">
             <div className="dropdown">
-              <button className="dropbtn">{lang.navbar.naseUsluge}</button>
+              <button className="dropbtn"><Link to="#nase-usluge" />{lang.navbar.naseUsluge}</button>
               <div className="dropdown-content">
                 <Link to="/adaptacije" onClick={closeMenu}>Adaptacije</Link>
                 <a href="#" onClick={closeMenu}>Elektroinstalaterski radovi</a>

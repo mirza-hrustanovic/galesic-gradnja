@@ -7,13 +7,14 @@ import elektro from "../serviceImage/elektro-installation1.jpg";
 import vodo from "../serviceImage/vodo.jpg";
 import rigips from "../serviceImage/rigips.jpg";
 import Contact from "./Contact";
+import Footer from "../Footer";
 
 const Adaptation = () => {
   return (
     <>
       <Header />
       <div className="main">
-        <h1>Adaptacije stana i kuće</h1>
+        <h1>Adaptacije stana ili kuće</h1>
         <div className="parallax-container">
           <div className="parallax-image">
             {/*this is the place where image is set in css and get the effect of parallax */}
@@ -35,8 +36,8 @@ const Adaptation = () => {
           Izvodimo sve vrste adaptacijsko-završnih radova po sistemu ključ u
           ruke ali isto tako i pojedinačnih obrtničkih radova:
         </h3>
-        <div className="wall-work">
-          <div className="text-content">
+        <div className="section-block">
+          
             <h4>Zidarski radovi</h4>
 
             <li>Maltarenje, struganje, gletovanje i krecenje</li>
@@ -57,13 +58,13 @@ const Adaptation = () => {
               vrši se grubo malterisanje, glatko malterisanje zidova ili
               mašinsko malterisanje.
             </p>
-          </div>
+          
           <img src={malterisanje} alt="malterisanje" />
         </div>
 
-        <div className="wall-work__other">
-          <img src={plocice} alt="plocice" />
-          <div className="text-content__other">
+        <div className="section-block">
+          
+          
             <h4>Keramičarski radovi</h4>
 
             <li>postavljanje keramičkih pločica, zamjena podnih obloga</li>
@@ -87,11 +88,11 @@ const Adaptation = () => {
               istom nivou, obavezno treba obratiti pažnju na dilatacione fugne
               ili lajsne.
             </p>
-          </div>
+          <img src={plocice} alt="plocice" />
         </div>
 
-        <div className="wall-work">
-          <div className="text-content">
+        <div className="section-block">
+          
             <h4>Parketarski i podopolagački radovi</h4>
             <li>postavljanje parketa i laminata</li>
             <p>
@@ -108,14 +109,13 @@ const Adaptation = () => {
               štetu. Ako kao podnu oblogu imate beton, proizvođači preporučuju
               sloj od 6 milimetara polietilena ispod laminata.
             </p>
-          </div>
+          
           <img src={laminat} alt="laminat" />
         </div>
 
-        <div className="wall-work__other">
-          <img src={elektro} alt="elektroinstalacije" />
-          <img src={vodo} alt="vodoinstalater" />
-          <div className="text-content__other">
+        <div className="section-block">
+         
+          
             <h4>Elektroinstalacije i vodovodne instalacije</h4>
             <p>
               Elektroinstalaterski radovi obuhvaćaju cjlovitu električnu mrežnu
@@ -132,11 +132,13 @@ const Adaptation = () => {
               montažu svih sanitarija te puštanja u pogon sustava. Pri tom se
               koriste provjereni i u svijetu poznati sustavi vrhunske kvalitete.
             </p>
-          </div>
+             <img src={elektro} alt="elektroinstalacije" />
+          <img src={vodo} alt="vodoinstalater" />
+          
         </div>
 
-        <div className="wall-work">
-          <div className="text-content">
+        <div className="section-block">
+          
             <h4>Suha gradnja</h4>
             <li>gips, knauf i rigips, pregradni zidovi i spušteni plafon</li>
             <p>
@@ -149,11 +151,12 @@ const Adaptation = () => {
               jeftinih, vremenski učinkovitih i ekološki prihvatljivih projekata
               
             </p>
-          </div>
+          
           <img src={rigips} alt="rigips"/>
         </div>
       </div>
       <Contact/>
+      <Footer/>
     </>
   );
 };

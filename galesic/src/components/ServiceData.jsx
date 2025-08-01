@@ -19,7 +19,7 @@ const serviceData = [{
     thumb:image2,
     title:"Elektroinstalerski radovi",
     text:"Sve vrste elektro radova u stanu ili kući",
-    link:<Link to="/adaptacije"/>
+    link:<Link to="/elektroinstalacije"/>
 
 },{
     id:3,

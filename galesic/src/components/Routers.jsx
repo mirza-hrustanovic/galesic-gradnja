@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Galery from "./pages/Galery";
 import "./styles/Header.css";
 import Adaptation from "./pages/Adaptation";
+import ElectroInstallation from "./pages/ElectroInstallation";
 
 function Routers() {
   return (
@@ -14,6 +15,7 @@ function Routers() {
           <Route path="/" element={<Home />} />
           <Route path="/o-nama" element={<About />} />
           <Route path="/adaptacije" element={<Adaptation/>}/>
+          <Route path="/elektroinstalacije" element={<ElectroInstallation />} />
           <Route path="/galery" element={<Galery />} />
           <Route path="/kontakt" element={<Contact />} />
         </Routes>

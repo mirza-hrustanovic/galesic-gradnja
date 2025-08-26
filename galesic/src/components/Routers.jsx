@@ -6,6 +6,8 @@ import Galery from "./pages/Galery";
 import "./styles/Header.css";
 import Adaptation from "./pages/Adaptation";
 import ElectroInstallation from "./pages/ElectroInstallation";
+import PlumbInstallation from "./pages/PlumbInstallation.jsx";
+import DryConstrucion from "./pages/DryConstruction.jsx";
 
 function Routers() {
   return (
@@ -16,6 +18,9 @@ function Routers() {
           <Route path="/o-nama" element={<About />} />
           <Route path="/adaptacije" element={<Adaptation/>}/>
           <Route path="/elektroinstalacije" element={<ElectroInstallation />} />
+          <Route path="/vodoinstalacije" element={<PlumbInstallation />} />
+          <Route path="/suhagradnja" element={<DryConstrucion />} />
+
           <Route path="/galery" element={<Galery />} />
           <Route path="/kontakt" element={<Contact />} />
         </Routes>

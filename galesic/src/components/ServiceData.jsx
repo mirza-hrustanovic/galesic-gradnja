@@ -26,14 +26,14 @@ const serviceData = [{
     thumb:image3,
     title:"Vodoinstalerski radovi",
     text:"Sve vrste sitnih vodoinstalarerski radova",
-    link:<Link to="/adaptacije"/>
+    link:<Link to="/vodoinstalacije"/>
 
 },{
     id:4,
     thumb:image4,
     title:"Suha gradnja",
     text:"Sve vrste suhe gradnje",
-    link:<Link to="/adaptacije"/>
+    link:<Link to="/suhagradnja"/>
 
 },{
     id:5,

@@ -26,7 +26,7 @@ const Header = () => {
         </div>
         <div className="number">
           <FontAwesomeIcon icon={faPhoneVolume} size="2xl" />
-          <h3>+38762532542</h3>
+          <h3>+387603015321</h3>
         </div>
         <div className="email">
           <FontAwesomeIcon icon={faEnvelope} size="2xl" />
@@ -63,9 +63,9 @@ const Header = () => {
               <button className="dropbtn"><Link to="#nase-usluge" />{lang.navbar.naseUsluge}</button>
               <div className="dropdown-content">
                 <Link to="/adaptacije" onClick={closeMenu}>Adaptacije</Link>
-                <a href="#" onClick={closeMenu}>Elektroinstalaterski radovi</a>
-                <a href="#" onClick={closeMenu}>Vodoinstalaterski radovi</a>
-                <a href="#" onClick={closeMenu}>Suha gradnja</a>
+                <a href="/elektroinstalacije" onClick={closeMenu}>Elektroinstalaterski radovi</a>
+                <a href="vodoinstalacije" onClick={closeMenu}>Vodoinstalaterski radovi</a>
+                <a href="suhagradnja" onClick={closeMenu}>Suha gradnja</a>
                 <a href="#" onClick={closeMenu}>Molerski radovi</a>
                 <a href="#" onClick={closeMenu}>Uređenje vrta</a>
               </div>

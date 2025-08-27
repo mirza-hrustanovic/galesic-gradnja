@@ -12,7 +12,7 @@ import DryConstrucion from "./pages/DryConstruction.jsx";
 function Routers() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/GalesicGradnja/'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/o-nama" element={<About />} />

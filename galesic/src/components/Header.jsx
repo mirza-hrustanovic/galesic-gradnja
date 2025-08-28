@@ -41,7 +41,7 @@ const Header = () => {
 
       <nav className="main-nav">
         <div className="main-header__logo">
-          <a href="/">
+          <a href="/GalesicGradnja/">
             <img src={logo} alt="logo" height={80} width={90} />
           </a>
         </div>
@@ -63,11 +63,11 @@ const Header = () => {
               <button className="dropbtn"><Link to="#nase-usluge" />{lang.navbar.naseUsluge}</button>
               <div className="dropdown-content">
                 <Link to="/adaptacije" onClick={closeMenu}>Adaptacije</Link>
-                <a href="/elektroinstalacije" onClick={closeMenu}>Elektroinstalaterski radovi</a>
-                <a href="vodoinstalacije" onClick={closeMenu}>Vodoinstalaterski radovi</a>
-                <a href="suhagradnja" onClick={closeMenu}>Suha gradnja</a>
-                <a href="#" onClick={closeMenu}>Molerski radovi</a>
-                <a href="#" onClick={closeMenu}>Uređenje vrta</a>
+                <Link to="/elektroinstalacije" onClick={closeMenu}>Elektroinstalaterski radovi</Link>
+                <Link to="/vodoinstalacije" onClick={closeMenu}>Vodoinstalaterski radovi</Link>
+                <Link to="/suhagradnja" onClick={closeMenu}>Suha gradnja</Link>
+                <Link to="/molerskiradovi" onClick={closeMenu}>Molerski radovi</Link>
+                <Link to="/uređenjevrta" onClick={closeMenu}>Uređenje vrta</Link>
               </div>
             </div>
           </li>

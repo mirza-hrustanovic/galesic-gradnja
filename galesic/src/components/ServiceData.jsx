@@ -40,14 +40,14 @@ const serviceData = [{
     thumb:image5,
     title:"Molerski radovi",
     text:"Sve vrste molerskih radova",
-    link:<Link to="/adaptacije"/>
+    link:<Link to="/molerskiradovi"/>
 
 },{
     id:6,
     thumb:image6,
-    title:"Radovi oko kuće",
+    title:"Uređenje vrta i okućnice",
     text:"Sve vrste radova oko kuće",
-    link:<Link to="/adaptacije"/>
+    link:<Link to="/uređenjevrta"/>
 
 },{
     id:7,

@@ -8,18 +8,20 @@ import Adaptation from "./pages/Adaptation";
 import ElectroInstallation from "./pages/ElectroInstallation";
 import PlumbInstallation from "./pages/PlumbInstallation.jsx";
 import DryConstrucion from "./pages/DryConstruction.jsx";
+import PaintingWallWorks from "./pages/PaintingWallWorks.jsx";
 
 function Routers() {
   return (
     <>
-      <BrowserRouter basename='/GalesicGradnja/'>
+      <BrowserRouter >
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/GalesicGradnja/" element={<Home />} />
           <Route path="/o-nama" element={<About />} />
           <Route path="/adaptacije" element={<Adaptation/>}/>
           <Route path="/elektroinstalacije" element={<ElectroInstallation />} />
           <Route path="/vodoinstalacije" element={<PlumbInstallation />} />
           <Route path="/suhagradnja" element={<DryConstrucion />} />
+          <Route path="/molerskiradovi" element={<PaintingWallWorks />} />
 
           <Route path="/galery" element={<Galery />} />
           <Route path="/kontakt" element={<Contact />} />

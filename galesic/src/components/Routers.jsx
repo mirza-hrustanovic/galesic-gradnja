@@ -9,6 +9,9 @@ import ElectroInstallation from "./pages/ElectroInstallation";
 import PlumbInstallation from "./pages/PlumbInstallation.jsx";
 import DryConstrucion from "./pages/DryConstruction.jsx";
 import PaintingWallWorks from "./pages/PaintingWallWorks.jsx";
+import YardLandscaping from "./pages/YardLandscaping.jsx";
+import TilesLying from "./pages/TilesLying.jsx";
+import FlooringWorks from "./pages/FlooringWorks.jsx";
 
 function Routers() {
   return (
@@ -22,7 +25,9 @@ function Routers() {
           <Route path="/vodoinstalacije" element={<PlumbInstallation />} />
           <Route path="/suhagradnja" element={<DryConstrucion />} />
           <Route path="/molerskiradovi" element={<PaintingWallWorks />} />
-
+          <Route path="/uređenjedvorišta" element={<YardLandscaping />} />
+          <Route path="/keramicarskiradovi" element={<TilesLying/>} />
+          <Route path="/podopolagackiradovi" element={<FlooringWorks />} />
           <Route path="/galery" element={<Galery />} />
           <Route path="/kontakt" element={<Contact />} />
         </Routes>

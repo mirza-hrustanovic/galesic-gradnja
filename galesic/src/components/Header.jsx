@@ -67,7 +67,9 @@ const Header = () => {
                 <Link to="/vodoinstalacije" onClick={closeMenu}>Vodoinstalaterski radovi</Link>
                 <Link to="/suhagradnja" onClick={closeMenu}>Suha gradnja</Link>
                 <Link to="/molerskiradovi" onClick={closeMenu}>Molerski radovi</Link>
-                <Link to="/uređenjevrta" onClick={closeMenu}>Uređenje vrta</Link>
+                <Link to="/uređenjedvorišta" onClick={closeMenu}>Uređenje dvorišta i okućnice</Link>
+                <Link to="/keramicarskiradovi" onClick={closeMenu}>Keramičarski radovi</Link>
+                <Link to="/podopolagackiradovi" onClick={closeMenu}>Podopolagacki radovi</Link>
               </div>
             </div>
           </li>

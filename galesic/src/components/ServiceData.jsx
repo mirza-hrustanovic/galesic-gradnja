@@ -45,23 +45,23 @@ const serviceData = [{
 },{
     id:6,
     thumb:image6,
-    title:"Uređenje vrta i okućnice",
+    title:"Uređenje dvorišta i sređivanje okućnice",
     text:"Sve vrste radova oko kuće",
-    link:<Link to="/uređenjevrta"/>
+    link:<Link to="/uređenjedvorišta"/>
 
 },{
     id:7,
     thumb:image7,
     title:"Keramičarski radovi",
     text:"Sve vrste keramičarskih radova",
-    link:<Link to="/adaptacije"/>
+    link:<Link to="/keramicarskiradovi"/>
 
 },{
     id:8,
     thumb:image8,
     title:"Podopolagački radovi",
     text:"Sve vrste podopolagačkih poslova",
-    link:<Link to="/adaptacije"/>
+    link:<Link to="/podopolagackiradovi"/>
 
 },]
 

@@ -1,5 +1,5 @@
-
 import { Link } from "react-router-dom";
+import { Mail, Phone, MapPin } from "lucide-react";
 import "./styles/Footer.css";
 
 const Footer = () => {
@@ -26,21 +26,23 @@ const Footer = () => {
 
         <div className="footer-section">
           <h4>Kontakt</h4>
-          <p>Email: info@galesicgradnja.ba</p>
-          <p>Telefon: +387 61 123 456</p>
-          <p>Adresa: Tuzla, BiH</p>
+          <p><Mail size={16} /> elektrotettnang@gmail.com</p>
+          <p><Phone size={16} /> +387603015321</p>
+          <p><MapPin size={16} /> Momanovo 66, Tuzla Grad 75000</p>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Developed and designed by <a  href = "https://www.linkedin.com/in/mirza-hrustanovi%C4%87-07a3a3223/"
-        target="_blank"
-      rel="noopener noreferrer">Mirza</a>
-       
-        
-          
-          
-          </p>
+        <p>
+          &copy; {new Date().getFullYear()} Developed by{" "}
+          <a
+            href="https://www.facebook.com/mirza.hrustanovic.9?locale=bs_BH"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Mirza
+          </a>
+        </p>
       </div>
     </footer>
   );

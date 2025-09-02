@@ -1,9 +1,10 @@
 .footer {
-  background-color: #222;
-  color: #fff;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+  background: linear-gradient(135deg, #1e293b, #0f172a); /* tamno plava nijansa */
+  color: #f8fafc;
+  padding: 2rem 1rem 1rem;
   font-size: 0.95rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .footer-container {
@@ -20,11 +21,16 @@
 .footer-section h3,
 .footer-section h4 {
   margin-bottom: 1rem;
-  color: #f1c40f; /* Zlatna nijansa */
+  color: #38bdf8; /* cyan akcent */
+  font-weight: 600;
 }
 
 .footer-section p {
   margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #e2e8f0;
 }
 
 .footer-section ul {
@@ -37,20 +43,45 @@
 }
 
 .footer-section ul li a {
-  color: #ccc;
+  color: #94a3b8;
   text-decoration: none;
-  transition: color 0.3s ease;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.footer-section ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background: #38bdf8;
+  transition: width 0.3s;
 }
 
 .footer-section ul li a:hover {
-  color: #fff;
+  color: #f1f5f9;
+}
+
+.footer-section ul li a:hover::after {
+  width: 100%;
 }
 
 .footer-bottom {
   text-align: center;
   margin-top: 2rem;
-  border-top: 1px solid #444;
+  border-top: 1px solid #334155;
   padding-top: 1rem;
   font-size: 0.85rem;
-  color: #aaa;
+  color: #94a3b8;
+}
+
+.footer-bottom a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
 }
